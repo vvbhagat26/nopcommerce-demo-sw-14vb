@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Register Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Register Test</h1>
+<p>
+  Test duration: 97.403s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.RegisterPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldCreateAccountSuccessfully
+      </td>
+  <td class="duration">
+    87.598s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on register link [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                Click on gender female [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //input[@id=&apos;gender-female&apos;]]<br />
+                                Enter first name abcto first name field [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; id: FirstName]<br />
+                                Enter last name Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@id=&apos;ConfirmPassword-error&apos;]&apos;to last name field [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; id: LastName]<br />
+                                Enter day 4from dropdown list[[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //select[@name=&apos;DateOfBirthDay&apos;]]<br />
+                                Enter month 4from dropdown list[[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //select[@name=&apos;DateOfBirthMonth&apos;]]<br />
+                                Enter year 1944from dropdown list[[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //select[@name=&apos;DateOfBirthYear&apos;]]<br />
+                                Enter email Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@id=&apos;ConfirmPassword-error&apos;]&apos;to email field [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; name: Email]<br />
+                                Enter password 123456to password field [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; id: Password]<br />
+                                Enter confirm password Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@id=&apos;ConfirmPassword-error&apos;]&apos;to password field [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; id: ConfirmPassword]<br />
+                                Click on register button [[ChromeDriver: chrome on windows (9cca571b6f1e7d67bb1465dcfc1e7eee)] -&gt; xpath: //button[@id=&apos;register-button&apos;]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;result&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=126.0.6478.61)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [9cca571b6f1e7d67bb1465dcfc1e7eee, findElement {value=//div[@class=&apos;result&apos;], using=xpath}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\vrund\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55087/devtoo..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 9cca571b6f1e7d67bb1465dcfc1e7eee</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)<br />
+              com.nopcommerce.demo.utility.Utility.getTextFromElement(Utility.java:64)<br />
+              com.nopcommerce.demo.pages.RegisterPage.getValueOfRegistrationSuccessMessage(RegisterPage.java:190)<br />
+              com.nopcommerce.demo.testsuite.RegisterPageTest.verifyThatUserShouldCreateAccountSuccessfully(RegisterPageTest.java:80)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.RegisterPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory
+      </td>
+  <td class="duration">
+    3.591s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on register link [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                Click on register button [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //button[@id=&apos;register-button&apos;]]<br />
+                                Get text from first name error message [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //span[@id=&apos;FirstName-error&apos;]]<br />
+                                Get text from last name [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //span[@id=&apos;LastName-error&apos;]]<br />
+                                Get text from email id error message [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //span[@id=&apos;Email-error&apos;]]<br />
+                                Get text from password error message [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //span[@id=&apos;ConfirmPassword-error&apos;]]<br />
+                                Get text from confirm password error message [[ChromeDriver: chrome on windows (5599a798bf4e277eb5573b81c21caffd)] -&gt; xpath: //span[@id=&apos;ConfirmPassword-error&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToRegisterPageSuccessfully
+      </td>
+  <td class="duration">
+    0.377s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on register link [[ChromeDriver: chrome on windows (9461782a1dfeadb572840ea126a028da)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                Get text from welcome text [[ChromeDriver: chrome on windows (9461782a1dfeadb572840ea126a028da)] -&gt; xpath: //h1[normalize-space()=&apos;Register&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

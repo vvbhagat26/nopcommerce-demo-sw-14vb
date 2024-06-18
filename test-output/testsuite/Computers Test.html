@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Computers Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Computers Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 16 19:33:08 BST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25612 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()'><b>verifyUserShouldNavigateToDesktopsPageSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerPageTest<br/>
+<a href="#Output-529621529" onClick='toggleBox("Output-529621529", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-529621529" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-529621529">
+Click on computers menu link [[ChromeDriver: chrome on windows (0162a9be964144dd837da6a6c5a46e9b)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+Click on desktops link [[ChromeDriver: chrome on windows (0162a9be964144dd837da6a6c5a46e9b)] -> xpath: //li[@class='inactive']//a[normalize-space()='Desktops']]<br/>
+Get title text for desktops page [[ChromeDriver: chrome on windows (0162a9be964144dd837da6a6c5a46e9b)] -> xpath: //h1[normalize-space()='Desktops']]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.demo.testsuite.ComputerPageTest@139982de</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerPageTest.verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully()'><b>verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerPageTest<br>Parameters: 2.2 GHz Intel Pentium Dual-Core E2200, 2 GB<br/>
+<a href="#Output-1209358542" onClick='toggleBox("Output-1209358542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209358542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209358542">
+Click on computers menu link [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+Click on desktops link [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //li[@class='inactive']//a[normalize-space()='Desktops']]<br/>
+Click on product name [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //h2[@class='product-title']/a]<br/>
+Get value of processor: 2.2 GHz Intel Pentium Dual-Core E2200from dropdown [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //select[@id='product_attribute_1']]<br/>
+Get value of ram: 2 GBfrom dropdown [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //select[@id='product_attribute_2']]<br/>
+Click on HDD [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //input[@id='product_attribute_3_7']]<br/>
+Click on OS [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //input[@id='product_attribute_4_9']]<br/>
+Click on software checkbox number three [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //input[@id='product_attribute_5_12']]<br/>
+Click on add to cart button [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> id: add-to-cart-button-1]<br/>
+Get text from product added success message [[ChromeDriver: chrome on windows (9eaa559114091d0a9ad9e444bec45396)] -> xpath: //p[@class='content']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.nopcommerce.demo.testsuite.ComputerPageTest@139982de</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerPageTest.verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully()'><b>verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerPageTest<br>Parameters: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00], 8GB [+$60.00]<br/>
+<a href="#Output-362311125" onClick='toggleBox("Output-362311125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-362311125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-362311125">
+Click on computers menu link [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+Click on desktops link [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //li[@class='inactive']//a[normalize-space()='Desktops']]<br/>
+Click on product name [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //h2[@class='product-title']/a]<br/>
+Get value of processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]from dropdown [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //select[@id='product_attribute_1']]<br/>
+Get value of ram: 8GB [+$60.00]from dropdown [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //select[@id='product_attribute_2']]<br/>
+Click on HDD [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //input[@id='product_attribute_3_7']]<br/>
+Click on OS [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //input[@id='product_attribute_4_9']]<br/>
+Click on software checkbox number three [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //input[@id='product_attribute_5_12']]<br/>
+Click on add to cart button [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> id: add-to-cart-button-1]<br/>
+Get text from product added success message [[ChromeDriver: chrome on windows (7ba0f37be895cf38f94ba8eaf3214b95)] -> xpath: //p[@class='content']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.nopcommerce.demo.testsuite.ComputerPageTest@139982de</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()'><b>verifyUserShouldNavigateToComputerPageSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerPageTest<br/>
+<a href="#Output-1258539949" onClick='toggleBox("Output-1258539949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258539949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258539949">
+Click on computers menu link [[ChromeDriver: chrome on windows (c772b18644d025909256f2c4a08a949a)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+Get title text for computers page [[ChromeDriver: chrome on windows (c772b18644d025909256f2c4a08a949a)] -> xpath: //h1[normalize-space()='Computers']]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.demo.testsuite.ComputerPageTest@139982de</td></tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.ComputerPageTest.verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully()'><b>verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.ComputerPageTest<br>Parameters: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00], 4GB [+$20.00]<br/>
+<a href="#Output-299031853" onClick='toggleBox("Output-299031853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-299031853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-299031853">
+Click on computers menu link [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Computers']]<br/>
+Click on desktops link [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //li[@class='inactive']//a[normalize-space()='Desktops']]<br/>
+Click on product name [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //h2[@class='product-title']/a]<br/>
+Get value of processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]from dropdown [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //select[@id='product_attribute_1']]<br/>
+Get value of ram: 4GB [+$20.00]from dropdown [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //select[@id='product_attribute_2']]<br/>
+Click on HDD [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //input[@id='product_attribute_3_7']]<br/>
+Click on OS [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //input[@id='product_attribute_4_9']]<br/>
+Click on software checkbox number three [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //input[@id='product_attribute_5_12']]<br/>
+Click on add to cart button [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> id: add-to-cart-button-1]<br/>
+Get text from product added success message [[ChromeDriver: chrome on windows (88df6c3c544a3b7c3eeec91b8448ecec)] -> xpath: //p[@class='content']]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.nopcommerce.demo.testsuite.ComputerPageTest@139982de</td></tr>
+</table><p>
+</body>
+</html>
